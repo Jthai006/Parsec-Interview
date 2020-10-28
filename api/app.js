@@ -9,7 +9,7 @@ const socketIo = require("socket.io");
 var indexRouter = require("./routes/index");
 var usersRouter = require("./routes/users");
 var binanceRouter = require("./routes/binance");
-
+require("dotenv").config();
 var app = express();
 
 // view engine setup

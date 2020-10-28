@@ -4,11 +4,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import BinanceTable from "./BinanceTable";
 
 
-const Binance = require("node-binance-api");
-const binance = new Binance().options({
-  APIKEY: "P244oVT0Y5oQrIJhFubriJFVJ2nlbvhWKjYoMF8DTtcHJCL2wFR9engkM26YQtaF",
-  APISECRET: "vhCEiMJpPscfmh2sAOD3s8Y0pyzusP1r1rUhDEwAQsYzOmqWADxRT8ufOOYxHZnY",
-});
+
 
 function useForceUpdate() {
   const [value, setValue] = React.useState(0); // integer state
